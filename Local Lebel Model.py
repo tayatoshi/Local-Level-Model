@@ -62,24 +62,3 @@ def kalman(a0=np.mean(alpha),p0=5000,Var_epsilon=50,Var_eta=50):
 
 kalman()
 
-
-# In[ ]:
-
-a=[1,2,3,4,5,6,7,8,9]
-a=pd.DataFrame(a)
-
-
-# In[ ]:
-
-a.index=a.index+1
-
-
-# In[ ]:
-
-a
-
-
-# In[ ]:
-
-
-

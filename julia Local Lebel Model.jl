@@ -47,12 +47,3 @@ function kalmanfilter(a0::Float64, p0::Float64, Var_ɛ::Float64, Var_η::Float64
 end
 
 kalmanfilter(mean(α),5000.0,5.0,5.0)
-
-using RDatasets
-using DataFrames
-
-iris=dataset("datasets","Nile")
-
-
-
-
